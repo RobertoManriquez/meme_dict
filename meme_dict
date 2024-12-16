@@ -1,0 +1,12 @@
+meme_dict = {
+    "CRINGE": "Se refiere a algo o alguien que genera incomodidad, temor o desasosiego, generalmente por ser extraño, perturbador o fuera de lo común. A menudo está asociado con situaciones o comportamientos inquietantes. EJEMPLO: Una casa abandonada con luces parpadeantes y risas infantiles provenientes de su interior puede resultar extremadamente creepy.",
+    "LOL": "Describe una sensación de vergüenza ajena o incomodidad intensa provocada por actitudes, acciones o comentarios que resultan socialmente inapropiados, exagerados o fuera de lugar. EJEMPLO: Ver a alguien cantar desafinadamente y con demasiada confianza en un karaoke lleno de extraños puede causar una sensación de cringe.",
+    "CREEPY": "Siglas de 'Laughing Out Loud', una expresión común en el lenguaje digital que significa reírse en voz alta. Se utiliza para indicar que algo es gracioso o provoca risa, aunque muchas veces se emplea de manera informal sin implicar una risa literal. EJEMPLO: ¡Se cayó de la silla mientras intentaba demostrar un truco de magia! LOL, no puedo parar de reír."
+}
+
+word = input("Ingresa la palabra que quieras consultar:").upper()
+
+if word in meme_dict.keys():
+    print("Significado de", word, ":\n", meme_dict[word])
+else:
+    print("Esa palabra no está, verifica si está bien escrita o si se encuentra en el diccionario.")
